@@ -42,7 +42,7 @@ data_preprocessor = dict(
 )
 
 
-num_things_classes = 80
+num_things_classes = 2
 num_stuff_classes = 0
 num_classes = num_things_classes + num_stuff_classes
 model = dict(

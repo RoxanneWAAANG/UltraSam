@@ -25,12 +25,12 @@ def parse_args():
         '--path',
         type=str,
         help='dataset path',
-        default=f"/DATA/{dataset_name}.zip")
+        default=f"/home/jack/Projects/yixin-llm/yixin-llm-data/UltraSam/dataset/AUL/{dataset_name}.zip")
     parser.add_argument(
         '--save-dir',
         type=str,
         help='the dir to save dataset',
-        default=f"/media/ameyer/Data4/ULTRASam/datasets/{dataset_name}")
+        default=f"/home/jack/Projects/yixin-llm/yixin-llm-data/UltraSam/dataset/{dataset_name}")
     parser.add_argument(
         '--save-viz',
         action='store_false',
